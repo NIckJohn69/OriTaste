@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-light text-brand-dark font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .glass-header {
+    @apply bg-brand-light/80 backdrop-blur-md border-b border-gray-200/50;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
