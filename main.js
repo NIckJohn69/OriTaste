@@ -22,7 +22,7 @@ const products = [
   {
     id: 3,
     name: 'Walnuts',
-    price: 2500,
+    price: 1500,
     unit: '1 kg',
     image: '/images/walnuts.png', // We fallback to css gradient or placeholder logic
     category: 'Nuts'
@@ -30,7 +30,7 @@ const products = [
   {
     id: 4,
     name: 'Raisins',
-    price: 800,
+    price: 1200,
     unit: '1 kg',
     image: '/images/raisins.png',
     category: 'Dry Fruits'
@@ -38,7 +38,7 @@ const products = [
   {
     id: 5,
     name: 'Pistachios',
-    price: 2200,
+    price: 3200,
     unit: '1 kg',
     image: '/images/pistachios.png',
     category: 'Nuts'
