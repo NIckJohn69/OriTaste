@@ -22,7 +22,7 @@ const products = [
   {
     id: 3,
     name: 'Walnuts',
-    price: 1500,
+    price: 1400,
     unit: '1 kg',
     image: '/images/walnuts.png', // We fallback to css gradient or placeholder logic
     category: 'Nuts'
